@@ -88,7 +88,7 @@ Foram identificadas **5** portas abertas.
 
 ### Output do Nmap
 
-![Nmap](imagens/nmap.png)
+![Nmap](imagens/nmap.jpeg)
 
 ---
 
