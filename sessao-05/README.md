@@ -25,7 +25,8 @@
 * **Descrição/Problema:** O diretório `/home` (assim como o `/tmp` e `/var`) não está numa partição isolada. Se um utilizador ou processo preencher o espaço total em disco, pode causar a falha completa de todo o sistema operativo.  
 * **Medida Corretiva Proposta:** Configurar o esquema de partições durante a instalação do sistema (ou num ambiente de produção) de forma a alocar partições/volumes LVM dedicados e independentes para `/home`, `/tmp` e `/var`, garantindo a disponibilidade do sistema mesmo que uma partição fique cheia.
 
-![sudo-lynis](imagens/sudo-lynis.png)
+
+![sudo-lynis](imagens/image1.png)
 
 ---
 

@@ -40,6 +40,6 @@ sudo ufw deny from 10.144.184.60
 
 ---
 
-## 📌 Conclusão
+##  Conclusão
 
 A regra de bloqueio foi inserida com sucesso na cadeia de entrada (`INPUT`) do sistema. Os testes de validação confirmam que o tráfego originado a partir do IP especificado será descartado (`DROP` / `DENY`), protegendo a infraestrutura contra acessos não autorizados.
